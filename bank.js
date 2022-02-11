@@ -3,7 +3,7 @@ document.getElementById("submit").addEventListener("click", function () {
   const valueEmail = userEmail.value;
   const userPassword = document.getElementById("user-password");
   const valuePassword = userPassword.value;
-  if (valueEmail == "sajjad@gamil.com" && valuePassword == "sajjad") {
+  if (valueEmail == "sajjad@gmail.com" && valuePassword == "sajjad") {
     window.location.href = "banking.html";
   }
 });
